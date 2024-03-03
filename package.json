@@ -1,0 +1,36 @@
+{
+  "name": "smartdeployer",
+  "version": "0.1.0",
+  "description": "CLI tool for deploying and managing smart contracts on Ethereum",
+  "main": "smartDeployer.js",
+  "bin": {
+    "smartdeployer": "./smartDeployer.js"
+  },
+  "scripts": {
+    "start": "node smartDeployer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuryaBudiman123/smartdeployer.git"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "smart contract",
+    "deployment",
+    "devops"
+  ],
+  "author": "SuryaBudiman123",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SuryaBudiman123/smartdeployer/issues"
+  },
+  "homepage": "https://github.com/SuryaBudiman123/smartdeployer#readme",
+  "dependencies": {
+    "ethers": "^5.5.1",
+    "dotenv": "^16.0.0",
+    "commander": "^9.0.0",
+    "inquirer": "^8.2.0",
+    "chalk": "^4.1.2"
+  }
+}
